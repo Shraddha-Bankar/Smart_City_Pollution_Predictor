@@ -1,64 +1,60 @@
-# 📌 Smart City Pollution Predictor
+# 📌 Smart City Pollution Predictor  
 
-## Author
+## Author  
 Shraddha Bankar  
 
-## Affiliation
+## Affiliation  
 Computer Science Engineering (Data Science)  
 
-## Date
+## Date  
 March 2026  
 
 ---
 
 ## 📖 Abstract  
-Air pollution is becoming a serious problem in modern cities and it directly affects people’s health and the environment. This project focuses on predicting pollution levels using machine learning so that actions can be taken in advance.  
+Air pollution is a major problem in cities and affects health and the environment. This project uses machine learning to predict pollution levels in advance.  
 
-The system uses past data such as temperature, humidity, and pollution levels like PM2.5 and PM10. First, the data is cleaned and prepared, and then machine learning models like Linear Regression and Random Forest are applied.  
+It uses past data like temperature, humidity, and pollutants (PM2.5, PM10). Models like Linear Regression and Random Forest are used, and Random Forest gives better results.  
 
-The results show that the system can predict pollution levels with good accuracy. This can help smart cities plan better and take steps to control pollution before it becomes harmful.  
+This system can help cities take early action to control pollution.  
 
 ---
 
 ## 📘 Introduction  
-In today’s cities, pollution is increasing due to traffic, industries, and population growth. This leads to many health problems like breathing issues and lung diseases.  
+Pollution is increasing due to traffic, industries, and population. It causes serious health problems.  
 
-The aim of this project is to build a system that can predict future pollution levels using past data. By knowing pollution levels in advance, authorities can take preventive actions.  
-
-This project is important because it helps in creating a cleaner and safer environment for people living in cities.  
+The goal of this project is to predict future pollution levels using past data. This helps in taking preventive steps and improving city life.  
 
 ---
 
-## 📘 Literature Review  
-Many researchers have worked on predicting air pollution using different methods. Some use simple statistical models, while others use machine learning techniques like Random Forest and Support Vector Machine.  
+## 📚 Literature Review  
+Many studies use machine learning to predict pollution. Common models include Linear Regression and Random Forest.  
 
-Some systems also use sensors to collect real-time data. However, many existing solutions use limited data or focus on only one type of pollutant.  
-
-In this project, multiple factors like temperature, humidity, and different pollutants are used together, which improves the prediction accuracy.  
+Some systems use limited data, but this project combines multiple factors like weather and pollutants to improve accuracy.  
 
 ---
 
 ## ⚙️ Methodology  
-The system takes past pollution and weather data as input. First, the data is cleaned by removing missing or incorrect values. Then, the data is normalized so all values are in a similar range.  
-
-Important features like temperature, humidity, and pollution levels are selected. The data is divided into training and testing sets.  
-
-Machine learning models like Linear Regression and Random Forest are trained and tested. Finally, the best model is used to predict future pollution levels.  
+- Data cleaning and normalization  
+- Feature selection (temperature, humidity, pollutants)  
+- Split data into training and testing  
+- Train models: Linear Regression, Random Forest  
+- Select best model for prediction  
 
 ---
 
 ## 💻 Implementation  
 
-**Programming Language**  
-- Python  
+**Language:** Python  
 
-**Libraries Used**  
+**Libraries:**  
 - NumPy  
 - Pandas  
 - Scikit-learn  
-- Matplotlib / Seaborn  
+- Matplotlib  
+- Seaborn  
 
-**Tools Used**  
+**Tools:**  
 - Jupyter Notebook  
 - Google Colab  
 - VS Code  
@@ -66,41 +62,38 @@ Machine learning models like Linear Regression and Random Forest are trained and
 
 ---
 
-## 📊 Results and Discussion  
-The models were trained and tested successfully. Random Forest performed better than Linear Regression in most cases.  
+## 📊 Results  
+The models were trained successfully. Random Forest performed better than Linear Regression.  
 
-The system can predict pollution levels with good accuracy. Graphs help in understanding how pollution changes over time.  
-
-This shows that machine learning can be useful in solving real-world environmental problems.  
+The system predicts pollution levels with good accuracy and helps understand pollution trends.  
 
 ---
 
-## ⚠️ Limitation  
-- Small dataset may reduce accuracy  
-- No real-time data is used  
-- Some important factors like traffic and industry are not included  
-- Results depend on data quality  
+## ⚠️ Limitations  
+- Small dataset  
+- No real-time data  
+- Missing factors like traffic and industry  
+- Accuracy depends on data quality  
 
 ---
 
 ## 🚀 Future Scope  
-- Use real-time data from sensors  
-- Apply deep learning for better results  
-- Build a mobile or web application  
-- Expand the system for multiple cities  
-- Add more environmental factors  
+- Use real-time sensor data  
+- Apply deep learning  
+- Build mobile/web app  
+- Expand to multiple cities  
 
 ---
 
 ## ✅ Conclusion  
-This project shows that machine learning can help predict air pollution in cities.  
+This project shows that machine learning can help predict pollution levels.  
 
-The system is simple, useful, and can support smart city development. With more improvements, it can help reduce pollution and protect public health.  
+It is simple, useful, and can support smart city development and better environmental planning.  
 
 ---
 
 ## 📎 References  
-[1] Air Pollution Prediction Using Machine Learning, 2021  
-[2] Smart City Environmental Monitoring Systems, 2020  
-[3] https://scikit-learn.org/  
-[4] https://www.kaggle.com/  
+1. Air Pollution Prediction Using Machine Learning (2021)  
+2. Smart City Environmental Monitoring (2020)  
+3. https://scikit-learn.org/  
+4. https://www.kaggle.com/  
