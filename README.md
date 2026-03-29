@@ -4,7 +4,7 @@
 Shraddha Bankar  
 
 ## Affiliation
-Bachelor of Computer Science Engineering (Data Science)  
+Computer Science Engineering (Data Science)  
 
 ## Date
 March 2026  
