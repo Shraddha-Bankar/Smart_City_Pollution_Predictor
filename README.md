@@ -1,4 +1,4 @@
-# 📌 Smart City Pollution Predictor  
+# Smart City Pollution Predictor  
 
 ## Author  
 Shraddha Bankar  
@@ -11,7 +11,7 @@ March 2026
 
 ---
 
-## 📖 Abstract  
+## Abstract  
 Air pollution is a major problem in cities and affects health and the environment. This project uses machine learning to predict pollution levels in advance.  
 
 It uses past data like temperature, humidity, and pollutants (PM2.5, PM10). Models like Linear Regression and Random Forest are used, and Random Forest gives better results.  
@@ -20,21 +20,21 @@ This system can help cities take early action to control pollution.
 
 ---
 
-## 📘 Introduction  
+## Introduction  
 Pollution is increasing due to traffic, industries, and population. It causes serious health problems.  
 
 The goal of this project is to predict future pollution levels using past data. This helps in taking preventive steps and improving city life.  
 
 ---
 
-## 📚 Literature Review  
+## Literature Review  
 Many studies use machine learning to predict pollution. Common models include Linear Regression and Random Forest.  
 
 Some systems use limited data, but this project combines multiple factors like weather and pollutants to improve accuracy.  
 
 ---
 
-## ⚙️ Methodology  
+## Methodology  
 - Data cleaning and normalization  
 - Feature selection (temperature, humidity, pollutants)  
 - Split data into training and testing  
@@ -43,7 +43,7 @@ Some systems use limited data, but this project combines multiple factors like w
 
 ---
 
-## 💻 Implementation  
+## Implementation  
 
 **Language:** Python  
 
@@ -62,14 +62,14 @@ Some systems use limited data, but this project combines multiple factors like w
 
 ---
 
-## 📊 Results  
+## Results  
 The models were trained successfully. Random Forest performed better than Linear Regression.  
 
 The system predicts pollution levels with good accuracy and helps understand pollution trends.  
 
 ---
 
-## ⚠️ Limitations  
+## Limitations  
 - Small dataset  
 - No real-time data  
 - Missing factors like traffic and industry  
@@ -77,7 +77,7 @@ The system predicts pollution levels with good accuracy and helps understand pol
 
 ---
 
-## 🚀 Future Scope  
+## Future Scope  
 - Use real-time sensor data  
 - Apply deep learning  
 - Build mobile/web app  
@@ -85,14 +85,14 @@ The system predicts pollution levels with good accuracy and helps understand pol
 
 ---
 
-## ✅ Conclusion  
+## Conclusion  
 This project shows that machine learning can help predict pollution levels.  
 
 It is simple, useful, and can support smart city development and better environmental planning.  
 
 ---
 
-## 📎 References  
+## References  
 1. Air Pollution Prediction Using Machine Learning (2021)  
 2. Smart City Environmental Monitoring (2020)  
 3. https://scikit-learn.org/  
